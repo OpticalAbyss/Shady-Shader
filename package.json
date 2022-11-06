@@ -1,0 +1,11 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "A Game with Js and Node hosting",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./server.js"
+  },
+  "author": "Obyss",
+  "license": "ISC"
+}

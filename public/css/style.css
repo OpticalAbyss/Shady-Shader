@@ -1,0 +1,20 @@
+#e2343{
+  background-color: aquamarine;
+  width: 600;
+  height: 900;
+  border:1px solid #000000;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  display: block;
+
+}
+
+.bar{
+  background-color: cadetblue;
+  padding: 0;
+  margin: 0;
+  border-radius: 2rem;
+}
