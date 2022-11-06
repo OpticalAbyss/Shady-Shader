@@ -13,7 +13,6 @@ const server = http.createServer((req, res)=>{
     res.writeHead(200, {'Content-Type' : `text/html`})
     fs.readFile(path.join(__dirname, `../public/css/style.css`), "utf-8", (err,data)=>{
       res.write(home + `<style>${data}</style>`)
-      console.log(data)
       res.end()
     })
   }
@@ -22,7 +21,6 @@ const server = http.createServer((req, res)=>{
     res.writeHead(200, {'Content-Type' : `text/html`})
     fs.readFile(path.join(__dirname, `../public/css/style.css`), "utf-8", (err,data)=>{
       res.write(about + `<style>${data}</style>`)
-      console.log(data)
       res.end()
     })
   }
@@ -31,7 +29,6 @@ const server = http.createServer((req, res)=>{
     res.writeHead(200, {'Content-Type' : `text/html`})
     fs.readFile(path.join(__dirname, `../public/css/style.css`), "utf-8", (err,data)=>{
       res.write(contact + `<style>${data}</style>`)
-      console.log(data)
       res.end()
     })
   }
