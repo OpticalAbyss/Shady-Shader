@@ -10,8 +10,11 @@ const server = http.createServer((req, res)=>{
   {
     res.writeHead(200, {'Content-Type' : `text/html`})
     fs.readFile(path.join(__dirname, `../public/css/style.css`), "utf-8", (err,data)=>{
-      res.write(home + `<style>${data}</style>`)
-      res.end()
+      fs.readFile(path.join(__dirname, `../public/index.js`), "utf-8", (err, data1)=>{  
+        res.write(home + `<style>${data}</style>` + `<script>${data1}</script>`
+          + `</body></html>`)
+        res.end()
+      })
     })
   }// Deccided to make a single page
   else {
