@@ -1,3 +1,52 @@
+/* going for a green and pastel color shceme */
+
+.MainTitle{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  display: block;
+  font-size: 4rem;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  width:max-content;
+}
+.row{
+  display: grid;
+
+}
+
+.headers{
+  color: white;
+  font-style: oblique;
+  font-size: x-large;
+  font: bold;
+  font-variant: small-caps;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headers:hover{
+  color: #49796B;
+  outline-width: 1px;
+  outline-color: grey;
+  outline:invert;
+  cursor:default;
+  
+  
+}
+
+body{
+  background-color:#ACE1AF;
+  color: aliceblue;
+  display: block;
+}
+
 #e2343{
   background-color: aquamarine;
   border:1px solid #000000;
@@ -8,21 +57,5 @@
   display: block;
   width: 1366px;
   height: 900px;
-
-}
-
-body{
-  background-color:aqua;
-  color: aliceblue;
-  display: block;
-}
-
-.bar{
-  background-color: cadetblue;
-  padding: 0;
-  margin: 0;
-  border-radius: 0.5px;
-  height: 30px;
-  
 
 }
